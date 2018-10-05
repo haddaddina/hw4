@@ -4,11 +4,9 @@ function setup() {
 }
 
 function draw() {
-	var x = random(width);
+	for(var i = 1; i < 100; i = i + 1){
+  var x = random(width);
 	var y = random(height);
-
-  // noprotect
-  for(var i = 100; i < 10; i+ 100);{
     stroke(x, y, 100);
 		point(x, y);
   }
